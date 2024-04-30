@@ -17,7 +17,7 @@ Follow the workflow in the [Spotify for Developers Dashboard](https://developer.
 Follow the steps at [discordhelp.net](https://discordhelp.net/discord-token) to find your Discord Auth Token. Save it for later. Don't worry, there's no way for me to get your token. It stays between you and the requests to Discord.
 ## Step 4: Put it all together
 If you don't have Python, [install it now](https://www.python.org/downloads/)
-In the code you downloaded earlier, create a new file named ".env" (no quotes) (already created for ur convenience). 
+In the code you downloaded earlier, create a new file named ".env" (no quotes). 
 Fill it with the following information you saved from earlier:
 
     DISCORD_AUTH = "YOUR_DISCORD_AUTH"
