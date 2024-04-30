@@ -32,7 +32,6 @@ def main(last_played_song, last_played_line, song, lyrics):
             json = {"custom_status": {
                         "text": "Not Currently Listening",
                         "emoji_name": "🎤"}})
-        requests.patch(url="https://discord.com/api/v9/users/@me/profile", headers= {"authorization": API_TOKEN}, json = {"bio": "https://github.com/EnderFlop/discord_status_lyric_linker"})
         TIMER.sleep()
         return "", "NO SONG"
 
